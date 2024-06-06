@@ -16,7 +16,7 @@ const GenreList = ({ selectedGenre, onSelectedGenre} : Props) => {
   if(error) return null;
 
   return (
-    <List paddingRight={"5rem"}>
+    <List paddingRight={"2rem"}>
       {data.map((genre) => (
         <ListItem key={genre.id} paddingY='5px'>
           <HStack>
